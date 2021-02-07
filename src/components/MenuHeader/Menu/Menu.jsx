@@ -2,7 +2,7 @@ import React from 'react'
 import s from './Menu.module.css'
 import cn from 'classnames'
 
-const Menu = ({isActive=true}) => {
+const Menu = ({isActive=false}) => {
     return (
         
 <div className={cn(s.menuContainer,{ [s.active]:isActive})}>
